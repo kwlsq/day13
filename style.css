@@ -59,15 +59,20 @@ main {
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-size: 3em;
+  font-weight: 400;
 }
 
 /* Check font styling */
 .text h1 span {
+  font-weight: 700;
+  color: #89C5CC;
 }
 
 /* Check font styling */
 .text p {
   font-family: 'Open Sans', sans-serif; 
+  color: #7D7987;
 }
 
 /* Check font styling and make sure the button is rounded */
@@ -79,6 +84,10 @@ main {
 
 /* Handle when user hover on the button */
 .text button:hover {
+}
+
+.text img{
+  width: 50%;
 }
 
 /* Check the text styling */
