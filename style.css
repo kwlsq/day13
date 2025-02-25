@@ -91,6 +91,7 @@ main {
   justify-content: center;
   padding: 0 32px;
   margin-top: 48px;
+  font-size: 1em;
 }
 
 .text button img{
@@ -110,7 +111,10 @@ main {
 
 /* Check the text styling */
 footer {
+  text-align: center;
   font-family: 'Open Sans', sans-serif; 
+  font-size: 0.875em;
+  line-height: 22.4px;
 }
 
 /* Check the text styling */
