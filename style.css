@@ -9,6 +9,7 @@ body {
   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
 
   min-height: 100vh;
+  font-size: 16px;
 }
 
 .page {
@@ -30,16 +31,21 @@ nav {
 nav ul {
   display: flex;
   gap: 48px;
+  list-style: none;
 }
 
 /* Check list link style */
 nav ul li a {
-
+  text-decoration: none;
+  font-size: 1.125em;
 }
+
+a:visited { text-decoration: none; color:#898794; }
 
 /* Make text bold on hover */
 nav ul li a:hover {
-  
+  font-weight: bold;
+  color: #1F1534;
 }
 
 
