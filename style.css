@@ -71,6 +71,7 @@ main {
 
 /* Check font styling */
 .text p {
+  margin-top: 16px;
   font-family: 'Open Sans', sans-serif; 
   color: #7D7987;
 }
@@ -80,10 +81,27 @@ main {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   gap: 8px;
+  background-color: #69B99D;
+  border: none;
+  border-radius: 4px;
+  height: 56px;
+  color: #F9F9F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+  margin-top: 48px;
+}
+
+.text button img{
+  width: 24px;
+  height: 24px;
 }
 
 /* Handle when user hover on the button */
 .text button:hover {
+  color: #4A9A7E;
+  font-size: 1em;
 }
 
 .text img{
